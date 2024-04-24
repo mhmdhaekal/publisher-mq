@@ -43,4 +43,10 @@ There are three events that run concurenntly:
 
 ![publisher-running](images/publisher-running.png)
 
-What happen is rabbit mq is running, and subscriber will listen for messages from queue, when i run publisher it will send messages to the queue, finally subscriber will receive the messages.
+What happen is rabbit mq is running, and subscriber will listen for messages from rabbitmq, when i run publisher it will send messages to the rabbitmq, finally subscriber will receive the messages.
+
+**Monitoring chart based on publisher**
+
+![monitor](images/spike.png)
+
+Spike is representing that rabbitmq or messages broker get the messages and send it to subscriber.
