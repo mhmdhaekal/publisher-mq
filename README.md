@@ -24,4 +24,23 @@ Based on code above the publisher will send 5 user_created data with messages fo
 The publisher will send the messages into the same messages broker and the subcriber will receive the data.
 
 **Running RabbitMq as message broker**
+
 ![init-raabit](images/init-rabbit.png?raw=true)
+
+**Sending and processing event**
+
+There are three events that run concurenntly:
+
+**RabbitMq**
+
+![rabbit-mq](images/rabbit-running.png)
+
+**Subscriber**
+
+![subscriber-running](images/subscriber-running.png)
+
+**Publisher**
+
+![publisher-running](images/publisher-running.png)
+
+What happen is rabbit mq is running, and subscriber will listen for messages from queue, when i run publisher it will send messages to the queue, finally subscriber will receive the messages.
