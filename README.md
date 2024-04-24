@@ -24,4 +24,4 @@ Based on code above the publisher will send 5 user_created data with messages fo
 The publisher will send the messages into the same messages broker and the subcriber will receive the data.
 
 **Running RabbitMq as message broker**
-![init-raabit](../images/init.rabbit-png)
+![init-raabit](../images/init.rabbit-png?raw=true)
